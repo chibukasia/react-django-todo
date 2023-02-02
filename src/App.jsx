@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <h2>Hello world</h2>
-      <Table todos={todos}/>
+      <Table todos={todos} setTodos={setTodos}/>
       <Form todos={todos} setTodos={setTodos}/>
     </div>
   )
